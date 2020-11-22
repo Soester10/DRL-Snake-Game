@@ -10,7 +10,7 @@ SIZE =10
 min_len4train = 500
 max_len4train = 50_000
 DISCOUNT = 0.90
-TO_SHOW_GAME = 100
+TO_SHOW_GAME = 500
 min_batch = 64
 Batch_Size = 32
 LENGTH_OF_EACH_GAME = 9
@@ -19,7 +19,7 @@ UPDATE_SECONDARY_WEIGHTS = False
 UPDATE_SECONDARY_WEIGHTS_NUM = 4
 STEPS_PER_GAME = 200
 
-EPISODES = 1500
+EPISODES = 5000
 
 epsilon = 1
 epsilon_mul_value = math.log(0.01, 10)/(EPISODES * 0.8)
